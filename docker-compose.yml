@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  spring-hello:
+    build:
+      context: .
+    image: mikeqiu2011/spring-hello
+    ports:
+      - "8080:8080"
+    # volumes:
+    #   - ./node:/home/node/app
